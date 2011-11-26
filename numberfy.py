@@ -35,7 +35,6 @@ def make_numbers(image, drawable, bg_color, size) :
 				x_position = x_position + extent[1]
 		x_position = 0 
 	
-	# pdb.gimp_text_get_extents_fontname(text, size, size_type, fontname)
 	pdb.gimp_selection_none(new_image)
 	gimp.Display(new_image)
 	return 
@@ -45,8 +44,8 @@ register(
        	"python_numberfy",
 	"Numberfy Image",
 	"Creates a copy of image with random numbers",
-	"Avi",
-	"Avi",
+	"Avishek Sen Gupta",
+	"Avishek Sen Gupta",
 	"2011",
 	"<Image>/Filters/Custom/Numberfy...",
 	"*",
