@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 
+# Creates an image filled with random numbers
+
+
 from gimpfu import *
 import glob
 import random

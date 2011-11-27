@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+# Creates a mosaic of a given picture with random numbers
+
 from gimpfu import *
 import glob
 import random
